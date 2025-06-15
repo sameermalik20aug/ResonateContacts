@@ -1,0 +1,43 @@
+{
+  "name": "question2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom"
+    ],
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "^./App$": "<rootDir>/App.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameermalik20aug/ResonateContacts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameermalik20aug/ResonateContacts/issues"
+  },
+  "homepage": "https://github.com/sameermalik20aug/ResonateContacts#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.7",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3"
+  }
+}
